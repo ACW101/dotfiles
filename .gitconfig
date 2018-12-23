@@ -38,6 +38,7 @@ path = ~/.gitconfig_local
 [user]
 	name = Kevin Wang
 	email = kevinwang101@gmail.com
+	signingkey = 01308295965ED51D
 [gpg]
 	program = gpg
     gpgsign = true
