@@ -1,6 +1,5 @@
 # Taps
 tap 'caskroom/cask'
-tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
@@ -22,11 +21,15 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
-brew 'php'
-brew 'imagick'
-brew 'mysql'
 brew 'node'
 brew 'redis'
+brew 'curl', args: ['with-openssl']
+brew 'python@2'
+brew 'python'
+brew 'diff-so-fancy'
+brew 'colordiff'
+brew 'docker-clean'
+
 
 # Apps
 cask 'aerial'
@@ -35,27 +38,19 @@ cask 'caffeine'
 cask 'discord'
 cask 'docker'
 cask 'dropbox'
-cask 'eid-be'
-cask 'eid-be-viewer'
 cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'gpg-suite'
-cask 'insomnia'
+cask 'gpg-suite' # encryption service
+cask 'insomnia' # like postman
 cask 'java'
-cask 'mysqlworkbench'
-cask 'phpstorm'
-cask 'sequel-pro'
 cask 'skype'
 cask 'slack'
-cask 'sublime-text'
-cask 'tableplus'
-cask 'tor-browser'
-cask 'tower2'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+cask 'visual-studio-code'
+cask 'iterm2'
+cask 'postman'
+cask 'spotify'
+cask 'spectacle'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -65,6 +60,7 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
+cask 'font-fira-code'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
@@ -74,13 +70,3 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas '1Password', id: 1333542190
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Sip', id: 507257563
-mas 'Spark', id: 1176895641
-mas 'The Unarchiver', id: 425424353
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
-mas 'WhatsApp', id: 1147396723 
